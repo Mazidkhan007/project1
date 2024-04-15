@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <style>
+        .page-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page-logo h1 {
+            margin: 0;
+            font-size: 8rem;
+        }
+
+        .nav-option {
+            padding: 0rem 4rem;
+        }
+
+        .nav-option ul {
+            margin: 0;
+            display: flex;
+            padding: 10px 7rem;
+            background-color: #f3f3f3;
+            justify-content: space-between;
+        }
+
+        .nav-option ul li {
+            list-style: none;
+        }
+
+        .nav-option ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            padding: 4px 21px;
+        }
+
+        .nav-option ul li:nth-child(1) a {
+            background-color: #fff;
+        }
+
+        .landing-page-container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding: 8rem 4rem;
+
+        }
+
+        .center-text h3 {
+
+            font-size: 5rem;
+            margin: 0;
+            text-align: center;
+            line-height: 69px;
+        }
+
+        .para {
+            margin: 1.7rem 0rem;
+        }
+
+        .para p {
+            font-size: 24px;
+            text-align: center;
+            line-height: 6px;
+
+        }
+
+        .program-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+        .program-button svg {
+            color: #fff;
+        }
+
+        .program-button a {
+            padding: 12px 25px;
+            text-decoration: none;
+            background-color: #000;
+            color: #fff;
+            font-size: 25px;
+            border-radius: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+        .sec-sec {
+            display: flex;
+        }
+
+        .service-button {
+            margin: 2rem 0rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        #sec-two {
+            margin-top: 2rem;
+            padding: 9rem 7rem 4rem 13rem;
+            background-color: #000;
+
+        }
+
+        .service-button a {
+            padding: 12px 25px;
+            text-decoration: none;
+            background-color: #fff;
+            color: #000;
+            font-size: 25px;
+            border-radius: 2rem;
+        }
+
+        .sec-img img {
+            height: 20rem;
+            width: 20rem;
+            background-color: #000;
+            border: 2px solid #fff;
+            object-fit: cover;
+        }
+
+        .sec-right {
+            padding: 0 3rem;
+        }
+
+        .small-hed p {
+            line-height: 1px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .bold-txt h1 {
+            font-size: 3rem;
+            line-height: 3rem;
+            color: #fff;
+        }
+
+        #section-three {
+            padding: 2rem 6rem;
+        }
+
+        .three-hed,
+        .three-desctiption {
+            display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 0rem 1rem;
+        }
+
+        .three-hed{
+            padding: 2rem 2rem;
+            border-bottom: 1px solid #000;
+        }
+        .three-hed h2{
+            font-size: 2rem;
+        }
+        .fine-me a{
+            padding: 1rem 2rem ;
+            color: #fff;
+            background-color: #000;
+            border-radius: 1.8rem;
+            text-decoration: none;
+        }
+        .three-img-sec{
+            margin: 2rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-gallry img{
+            width: 17rem;
+            height: 12rem;
+            border-radius: 1rem;
+            object-fit: cover;
+        }
+    </style>
+    <nav>
+        <div class="nav-container">
+            <div class="page-logo">
+                <h1>Union Dreamers</h1>
+            </div>
+            <div class="nav-option">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="landing-page">
+        <div class="landing-page-container">
+            <div class="center-text">
+                <h3>Empowering Seekers</h3>
+                <h3>of treasure</h3>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit, amet elit. beatae totam alias. Voluptatibus, quo ab?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+
+            <div class="program-button">
+                <a href="#">Find me program <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                        fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg> </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-two">
+        <div class="sec-sec">
+            <div class="sec-left">
+                <div class="sec-img">
+                    <img src="./image/BWimage.jpeg" alt="img">
+                </div>
+                <div class="service-button">
+                    <a href="#">Service Pakages </a>
+                </div>
+            </div>
+            <div class="sec-right">
+                <div class="small-hed">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="bold-txt">
+                    <h1>We provide free webinars,peer-to-peer advising,and 24-hour for your emergency and service,
+                        so you can feel supported every step of the way service needs
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-three">
+        <div class="three-container">
+            <div class="three-hed">
+                <h2>In Collaboration with</h2>
+                <div class="fine-me">
+                    <a href="#">Find me program</a>
+                </div>
+            </div>
+
+            <div class="three-desctiption">
+                <div class="three-side-hed">
+                    <h2>Experience the path to quality education with top program and best service onbord instantly</h2>
+                </div>
+                <div class="three-side-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dicta, tempora incidunt saepe
+                    temporibus amet? Est, esse dolorum. Necessitatibus, suscipit.
+                </div>
+                <div class="three-side-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dicta, tempora incidunt saepe
+                    temporibus amet? Est, esse dolorum. Necessitatibus, suscipit.
+                </div>
+            </div>
+            <div class="three-img-sec">
+                <div class="img-gallry">
+                    <img src="./image/b2.jpg" alt="image">
+                </div>
+                <div class="img-gallry">
+                    <img src="./image/b1.jpg" alt="image">
+                </div>
+                <div class="img-gallry">
+                    <img src="./image/b3.jpeg" alt="image">
+                </div>
+                <div class="img-gallry">
+                    <img src="./image/b5.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
